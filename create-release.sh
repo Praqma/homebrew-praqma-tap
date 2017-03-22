@@ -3,15 +3,15 @@
 echo "Creating Brew Release"
 
 #GITHUB URL
-URL=https://github.com/Praqma/git-phlow/releases/download/v1.1.0/git-phlow-1.1.0-darwin-amd64.tar.gz
+URL=https://github.com/Praqma/git-phlow/releases/download/v1.1.1/git-phlow-1.1.1-darwin-amd64.tar.gz
 
-wget https://github.com/Praqma/git-phlow/releases/download/v1.1.0/git-phlow-1.1.0-darwin-amd64.tar.gz
+wget $URL
 
 #HASH
-HASH=$(shasum -a 256 ./git-phlow-1.1.0-darwin-amd64.tar.gz | awk '{ print $1 }')    
+HASH=$(shasum -a 256 ./git-phlow-1.1.1-darwin-amd64.tar.gz | awk '{ print $1 }')    
 
 #VERSION
-VERSION=1.1.0
+VERSION=1.1.1
 
 echo $HASH
 echo $VERSION
