@@ -2,9 +2,9 @@
 class GitPhlow < Formula
   desc "pragmatic workflow extension for git"
   homepage "https://github.com/Praqma/git-phlow"
-  url "https://github.com/Praqma/git-phlow/releases/download/v1.1.5/git-phlow-1.1.5-darwin-amd64.tar.gz"
-  version "1.1.5"
-  sha256 "2729a9168595a263e4a01f44e734e3cce4160d250848281b600acc5ad05f941b"
+  url "https://github.com/Praqma/git-phlow/releases/download/v2.0.2/git-phlow-2.0.2-darwin-amd64.tar.gz"
+  version "2.0.2"
+  sha256 "ca36a4b8b8b80937fe24fd05bfc6a00107bfa2bdc4a1aa95b241af8170efc924"
 
   def install
     bin.install "git-phlow"
